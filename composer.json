@@ -1,0 +1,30 @@
+{
+    "name": "alterxtn/third-parties-catalog",
+    "type": "library",
+    "description": "Third Parties catalog",
+    "keywords": ["thirds management", "third parties catalog"],
+    "homepage": "http://www.extension-interactive.com/",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Laurent Demouge",
+            "email": "ldemouge@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/LDemouge/alterxtn-thirdPartyCatalog.git"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ALTERXTN\\ThirdPartiescatalog": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
